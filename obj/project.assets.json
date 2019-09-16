@@ -12121,7 +12121,7 @@
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
-      "dapper",
+      "dapper >= 2.0.4",
       "mysqlconnector >= 0.56.0"
     ]
   },
@@ -12185,7 +12185,7 @@
           },
           "dapper": {
             "target": "Package",
-            "version": "(, )"
+            "version": "[2.0.4, )"
           },
           "mysqlconnector": {
             "target": "Package",

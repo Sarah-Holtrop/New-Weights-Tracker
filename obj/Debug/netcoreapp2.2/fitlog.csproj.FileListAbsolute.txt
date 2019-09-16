@@ -1,0 +1,14 @@
+C:\source\apps\fitlog\bin\Debug\netcoreapp2.2\fitlog.deps.json
+C:\source\apps\fitlog\bin\Debug\netcoreapp2.2\fitlog.runtimeconfig.json
+C:\source\apps\fitlog\bin\Debug\netcoreapp2.2\fitlog.runtimeconfig.dev.json
+c:\source\apps\fitlog\bin\Debug\netcoreapp2.2\fitlog.dll
+c:\source\apps\fitlog\bin\Debug\netcoreapp2.2\fitlog.pdb
+c:\source\apps\fitlog\obj\Debug\netcoreapp2.2\fitlog.csprojAssemblyReference.cache
+c:\source\apps\fitlog\obj\Debug\netcoreapp2.2\fitlog.csproj.CoreCompileInputs.cache
+c:\source\apps\fitlog\obj\Debug\netcoreapp2.2\fitlog.RazorAssemblyInfo.cache
+c:\source\apps\fitlog\obj\Debug\netcoreapp2.2\fitlog.RazorAssemblyInfo.cs
+c:\source\apps\fitlog\obj\Debug\netcoreapp2.2\fitlog.AssemblyInfoInputs.cache
+c:\source\apps\fitlog\obj\Debug\netcoreapp2.2\fitlog.AssemblyInfo.cs
+c:\source\apps\fitlog\obj\Debug\netcoreapp2.2\fitlog.RazorTargetAssemblyInfo.cache
+c:\source\apps\fitlog\obj\Debug\netcoreapp2.2\fitlog.dll
+c:\source\apps\fitlog\obj\Debug\netcoreapp2.2\fitlog.pdb
