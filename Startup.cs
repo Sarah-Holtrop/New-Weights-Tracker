@@ -32,6 +32,7 @@ namespace fitlog
 
       services.AddTransient<IDbConnection>(x => CreateDBContext());
       services.AddTransient<LiftsRepository>();
+      services.AddTransient<WeightsRepository>();
 
 
     }
