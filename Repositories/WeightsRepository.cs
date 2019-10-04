@@ -15,12 +15,12 @@ namespace fitlog.Repositories
     public Weight AddWeight(Weight weight)
     {
       var id = _db.ExecuteScalar<int>(@"
-      INSERT INTO weights (amount)
-      VALUES (@Amount);
+      INSERT INTO weights (amount, liftId)
+      VALUES (@Amount, @LiftId);
       SELECT LAST_INSERT_ID();", weight);
       weight.Id = id;
       return weight;
     }
-    public IEnumerable<Weight> GetWeightsByLiftId()
+    // public IEnumerable<Weight> GetWeightsByLiftId()
   }
 }

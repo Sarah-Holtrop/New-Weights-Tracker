@@ -4,11 +4,16 @@
 --     PRIMARY KEY (id)
 -- )
 
--- CREATE TABLE IF NOT EXISTS weights (
---   id int NOT NULL AUTO_INCREMENT,
---   amount int NOT NULL,
---   PRIMARY KEY (id)
--- )
+CREATE TABLE IF NOT EXISTS weights (
+  id int NOT NULL AUTO_INCREMENT,
+  amount int NOT NULL,
+  liftId int NOT NULL,
+  PRIMARY KEY (id),
+  INDEX (liftId),
+  FOREIGN KEY (liftId)
+    REFERENCES lifts(id)
+    ON DELETE CASCADE
+)
 
 -- CREATE TABLE IF NOT EXISTS liftweights (
 --     id int NOT NULL AUTO_INCREMENT,
